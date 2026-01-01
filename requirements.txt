@@ -1,0 +1,9 @@
+flask
+flask-cors
+torch
+torchvision
+ftfy
+regex
+timm
+clip-by-openai
+pillow

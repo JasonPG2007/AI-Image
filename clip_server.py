@@ -20,5 +20,8 @@ def embed():
         vector = model.encode_image(image_tensor).tolist()[0]
 
     return jsonify(vector)
-
+if __name__ == "__main__":
+    # Port 10000 trở lên để Render tự map, lấy từ env
+    import os
+    port = int(os.environ.get("PORT", 5000))
 app.run(host="0.0.0.0", port=5001)
