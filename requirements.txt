@@ -1,4 +1,7 @@
 flask
 flask-cors
-clip-by-openai
 pillow
+torch==2.3.0+cpu
+torchvision==0.18.1+cpu
+openai-clip
+--find-links https://download.pytorch.org/whl/cpu
